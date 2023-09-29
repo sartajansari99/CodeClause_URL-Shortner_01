@@ -1,0 +1,250 @@
+.container {
+    background: rgba(30, 9, 153, 0.300);
+    backdrop-filter: blur(8px);
+    height: 400px;
+    width: 600px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.outside {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: 40px;
+
+}
+
+.inpbtn input {
+    width: 300px;
+    padding: 8px;
+}
+
+.inpbtn button {
+    background-color: orange;
+    border: none;
+    width: 80px;
+    padding: 8px;
+}
+
+.copy {
+    margin-top: 40px;
+    
+    cursor: pointer;
+}
+h1{
+    color: white;
+    font-size: 50px;
+}
+span{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:orange;
+    font-size: 60px;
+}
+
+.copy input {
+    margin-right: 10px;
+    background-color: rgb(88, 100, 100);
+    width: 200px;
+    padding: 10px;
+    color: white;
+}
+
+.copy button {
+    width: 80px;
+    height: 30px;
+    background-color: orange;
+    border: none;
+    cursor: pointer;
+}
+
+
+@keyframes animate {
+    0% {
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+        border-radius: 0;
+    }
+
+    100% {
+        transform: translateY(-1000px) rotate(720deg);
+        opacity: 0;
+        border-radius: 50%;
+    }
+}
+
+.background {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    background: #4e54c8;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.background li {
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    animation: animate 13s linear infinite;
+}
+
+
+
+
+.background li:nth-child(0) {
+    left: 0%;
+    width: 76px;
+    height: 76px;
+    bottom: -76px;
+    animation-delay: 1s;
+}
+
+.background li:nth-child(1) {
+    left: 85%;
+    width: 97px;
+    height: 97px;
+    bottom: -97px;
+    animation-delay: 2s;
+}
+
+.background li:nth-child(2) {
+    left: 70%;
+    width: 74px;
+    height: 74px;
+    bottom: -74px;
+    animation-delay: 9s;
+}
+
+.background li:nth-child(3) {
+    left: 77%;
+    width: 57px;
+    height: 57px;
+    bottom: -57px;
+    animation-delay: 3s;
+}
+
+.background li:nth-child(4) {
+    left: 66%;
+    width: 135px;
+    height: 135px;
+    bottom: -135px;
+    animation-delay: 19s;
+}
+
+.background li:nth-child(5) {
+    left: 53%;
+    width: 124px;
+    height: 124px;
+    bottom: -124px;
+    animation-delay: 22s;
+}
+
+.background li:nth-child(6) {
+    left: 64%;
+    width: 144px;
+    height: 144px;
+    bottom: -144px;
+    animation-delay: 2s;
+}
+
+.background li:nth-child(7) {
+    left: 56%;
+    width: 170px;
+    height: 170px;
+    bottom: -170px;
+    animation-delay: 1s;
+}
+
+.background li:nth-child(8) {
+    left: 55%;
+    width: 70px;
+    height: 70px;
+    bottom: -70px;
+    animation-delay: 23s;
+}
+
+.background li:nth-child(9) {
+    left: 53%;
+    width: 120px;
+    height: 120px;
+    bottom: -120px;
+    animation-delay: 33s;
+}
+
+.background li:nth-child(10) {
+    left: 35%;
+    width: 103px;
+    height: 103px;
+    bottom: -103px;
+    animation-delay: 19s;
+}
+
+.background li:nth-child(11) {
+    left: 58%;
+    width: 82px;
+    height: 82px;
+    bottom: -82px;
+    animation-delay: 29s;
+}
+
+.background li:nth-child(12) {
+    left: 11%;
+    width: 103px;
+    height: 103px;
+    bottom: -103px;
+    animation-delay: 20s;
+}
+
+.background li:nth-child(13) {
+    left: 48%;
+    width: 68px;
+    height: 68px;
+    bottom: -68px;
+    animation-delay: 38s;
+}
+
+.background li:nth-child(14) {
+    left: 33%;
+    width: 88px;
+    height: 88px;
+    bottom: -88px;
+    animation-delay: 19s;
+}
+
+.background li:nth-child(15) {
+    left: 76%;
+    width: 122px;
+    height: 122px;
+    bottom: -122px;
+    animation-delay: 62s;
+}
+
+.background li:nth-child(16) {
+    left: 6%;
+    width: 146px;
+    height: 146px;
+    bottom: -146px;
+    animation-delay: 67s;
+}
+
+@media (max-width: 480px) {
+    h1{
+        font-size: 40px;
+
+    }
+.container{
+    width: 100%;
+}
+  }
